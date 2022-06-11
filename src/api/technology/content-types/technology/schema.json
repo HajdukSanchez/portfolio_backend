@@ -31,6 +31,9 @@
     },
     "secondaryColor": {
       "type": "string"
+    },
+    "outstanding": {
+      "type": "boolean"
     }
   }
 }
