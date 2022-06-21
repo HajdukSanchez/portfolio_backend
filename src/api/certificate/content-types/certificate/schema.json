@@ -18,30 +18,8 @@
     "date": {
       "type": "date"
     },
-    "badgePicture": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "courseLink": {
       "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     },
     "comment": {
       "type": "richtext"
@@ -58,6 +36,12 @@
     },
     "outstanding": {
       "type": "boolean"
+    },
+    "image": {
+      "type": "string"
+    },
+    "badgePicture": {
+      "type": "string"
     }
   }
 }

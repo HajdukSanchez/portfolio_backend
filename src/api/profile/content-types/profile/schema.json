@@ -27,28 +27,6 @@
     "twitter": {
       "type": "string"
     },
-    "picture": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "cv": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "email": {
       "type": "email"
     },
@@ -62,6 +40,12 @@
       "type": "string"
     },
     "username": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "cv": {
       "type": "string"
     }
   }
